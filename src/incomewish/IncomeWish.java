@@ -16,7 +16,20 @@ public class IncomeWish {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        String name;
+        int age;
+        double annualPay; 
+        
+        name = "Dibya";
+        age = 24 ;
+        annualPay = 1000000;
+        
+        System.out.println("My name is " + name + ", I am " + age + " years old, " + "and" );
+        System.out.println ( "I wish to earn $" + annualPay ) ;      
+    
+        
+              
+        
     }
     
 }
